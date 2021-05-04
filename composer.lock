@@ -1337,6 +1337,12 @@
                 "issues": "https://github.com/livewire/livewire/issues",
                 "source": "https://github.com/livewire/livewire/tree/v2.4.4"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/calebporzio",
+                    "type": "github"
+                }
+            ],
             "time": "2021-04-28T15:31:15+00:00"
         },
         {

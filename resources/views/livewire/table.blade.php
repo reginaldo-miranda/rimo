@@ -1,10 +1,10 @@
-<div>
+
 <h2>lista de Posts</h2>
 
 <table class="table">
     <thead>
         <tr>
-            <th>ID</th>
+            <th>codigo</th>
             <th>nome</th>
             <th>Fone</th>
             <th colspan="2"&nbsp;></th>
@@ -22,7 +22,7 @@
               </button>
           </td>
           <td>
-            <button wire:click='destroy({{ $post->id }})' class="btn btn-danger btn-sm">
+            <button wire:click="destroy({{ $post->id }})" class="btn btn-danger btn-sm">
                 Deletar
             </button>
         </td>
@@ -34,5 +34,5 @@
 </table>
 
 {{ $posts->links() }}
-</div>
+
 {{-- https://www.youtube.com/watch?v=Cct1MgxXRWU&list=PLhCiuvlix-rSRRmZAL2CNOMAUjgEiFoSl&index=4  --}}
