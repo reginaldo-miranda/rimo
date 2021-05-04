@@ -17,7 +17,7 @@
           <td>{{ $post->nome }}</td>
           <td>{{ $post->fone }}</td>
           <td>
-              <button class="btn btn-primary btn-sm">
+              <button wire:click="edit({{ $post->id }})"class="btn btn-primary btn-sm">
                   Editar
               </button>
           </td>
